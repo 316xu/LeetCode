@@ -1,11 +1,11 @@
 
 #include <iostream>
-#include "ReserveInteger.h"
+#include "PalindromeNumber.h"
 using namespace std;
 int main() {
 
+    PalindromeNumber *p = new PalindromeNumber();
+    cout << p->isPalindrome(-2147447412) << endl;
 
-    ReserveInteger *i = new ReserveInteger();
-    std::cout << i->reverse(-2147483648);
     return 0;
 }

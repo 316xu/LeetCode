@@ -3,7 +3,6 @@
 // 7
 //
 
-#include <iostream>
 
 #define INT_MAX 2147483647 / 10
 
