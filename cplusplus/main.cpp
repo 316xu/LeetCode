@@ -1,11 +1,15 @@
 
 #include <iostream>
-#include "PalindromeNumber.h"
+#include "LongestCommonPrefix.h"
+
 using namespace std;
 int main() {
 
-    PalindromeNumber *p = new PalindromeNumber();
-    cout << p->isPalindrome(-2147447412) << endl;
 
+    LongestCommonPrefix prefix;
+    vector<string> vector(2);
+    vector[0] = "abc";
+    vector[1] = "abe";
+    cout << prefix.longestCommonPrefix(vector);
     return 0;
 }
