@@ -6,12 +6,13 @@
 #include "RemoveDuplicates.h"
 #include "RemoveElement.h"
 #include "ImplementStrStr.h"
+#include "CountAndSay.h"
 
 using namespace std;
 int main() {
 
-    ImplementStrStr i;
-    cout << i.strStr("aabaaabaaac", "aabaaac");
+    CountAndSay c;
+    cout << c.countAndSay(5);
 
     return 0;
 }
