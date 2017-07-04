@@ -10,6 +10,7 @@
 #include "MaximumSubarray.h"
 #include "LengthOfLastword.h"
 #include "AddBinary.h"
+#include "ClimbStairs.h"
 
 using namespace std;
 int main() {
@@ -25,7 +26,7 @@ int main() {
 //    v[7]=-5;
 //    v[8]=4;
 
-    AddBinary a;
-    a.addBinary("1", "11");
+    ClimbStairs c;
+cout << c.climbStairs(3);
     return 0;
 }
