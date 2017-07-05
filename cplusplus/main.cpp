@@ -11,22 +11,15 @@
 #include "LengthOfLastword.h"
 #include "AddBinary.h"
 #include "ClimbStairs.h"
+#include "TreeLevelOrder.h"
 
 using namespace std;
 int main() {
 
-    vector<int> v(2);
-    v[0] = -2;
-    v[1] = -1;
-//    v[2] = -3;
-//    v[3] = 4;
-//    v[4] = -1;
-//    v[5] = 2;
-//    v[6]=1;
-//    v[7]=-5;
-//    v[8]=4;
-
-    ClimbStairs c;
-cout << c.climbStairs(3);
+    TreeLevelOrder t;
+    TreeNode treeNode(1);
+    treeNode.left = new TreeNode(2);
+    treeNode.right = new TreeNode(3);
+    cout << t.levelOrderBottom(&treeNode)[0][0];
     return 0;
 }
