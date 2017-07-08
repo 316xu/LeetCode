@@ -2,16 +2,15 @@
 #include <iostream>
 #include "BlanceTree.h"
 #include "PascalTriangle2.h"
+#include "ValidPalindrome.h"
 
 
 using namespace std;
 int main() {
 
-    BlanceTree b;
     TreeNode treeNode(1);
-    treeNode.left = new TreeNode(2);
-    PascalTriangle2 p;
-//    treeNode.right = new TreeNode(3);
-    p.getRow(3);
+
+    ValidPalindrome v;
+    cout << v.isPalindrome("0P");
     return 0;
 }
