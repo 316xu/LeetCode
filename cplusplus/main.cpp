@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include "IntersecList.h"
+#include "TwoSum2.h"
 
 
 using namespace std;
@@ -23,9 +24,9 @@ int main() {
     b2->next = b3;
     b3->next = c1;
 
+    TwoSum2 t;
+    vector<int> a({-1, 0});
+    t.twoSum(a, -1);
 
-    IntersectList i;
-
-    i.getIntersectionNode(a1, b1);
     return 0;
 }
