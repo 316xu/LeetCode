@@ -1,5 +1,6 @@
 //
 // Created by xujifa on 17-7-9.
+// 172
 // TODO 值得思考
 
 #ifndef CPLUSPLUS_FACTORIALTRAILINGZERO_H
