@@ -2,6 +2,7 @@
 #include <iostream>
 #include "IntersecList.h"
 #include "TwoSum2.h"
+#include "FactorialTrailingZero.h"
 
 
 using namespace std;
@@ -24,9 +25,8 @@ int main() {
     b2->next = b3;
     b3->next = c1;
 
-    TwoSum2 t;
-    vector<int> a({-1, 0});
-    t.twoSum(a, -1);
 
+    FactorialTrailingZero f;
+    f.trailingZeros(100);
     return 0;
 }
