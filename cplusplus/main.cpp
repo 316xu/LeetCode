@@ -3,6 +3,7 @@
 #include "IntersecList.h"
 #include "TwoSum2.h"
 #include "FactorialTrailingZero.h"
+#include "ReverseBits.h"
 
 
 using namespace std;
@@ -28,5 +29,7 @@ int main() {
 
     FactorialTrailingZero f;
     f.trailingZeros(100);
+    ReverseBits r;
+    r.reverseBits(1);
     return 0;
 }
